@@ -6,7 +6,7 @@
     "Maria Del Castillo <maria.f.delcastillo@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/mfdi86/online-store",
   "ignore": [
     "**/.*",
     "node_modules",

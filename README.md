@@ -21,18 +21,9 @@ Keep track of available store albums, add an album as an administrator.
   $ npm install
   $ bower install
 3. Create file 'api-keys.ts' in the app folder
-4. Place
-> export var masterFirebaseConfig = {
-  > apiKey: "AIzaSyDx7YpMNj8R2rZ08efMavxtSEF_g8SBK7g",
-    > authDomain: "epicodus-music-store.firebaseapp.com",
-    > databaseURL:  "https://epicodus-music-store.firebaseio.com",
-    > projectId: "epicodus-music-store",
-    > storageBucket: "epicodus-music-store.appspot.com",
-    > messagingSenderId: "796173519717"
-  > };
-
-
-5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4. Create a firebase account at https://firebase.google.com/ . On their site choose 'Add Firebase to your web app'.
+5. Place the code snippet they give in the 'api-keys.ts' file
+6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Known Bugs
 * None

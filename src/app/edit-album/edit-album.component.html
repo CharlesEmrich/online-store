@@ -11,4 +11,7 @@
 <label>New Album Description:</label>
 <input [(ngModel)]="selectedAlbum.description" (change)="beginUpdatingAlbum(selectedAlbum)">
 
+<hr>
+<button (click)="beginDeletingAlbum(selectedAlbum)">Delete</button>
+
 <!-- <button (click)="beginUpdatingAlbum(selectedAlbum)">Update</button> -->
